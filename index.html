@@ -2,10 +2,12 @@
 <html>
     <head>
         <title>Mi portafolio personal</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <script src ="./script.js" defer></script>
     </head>
      <body>
         <header>
-            <nav>
+            <nav class="menu-fijo">
                 <ul>
                     <a href="#acerca-de-mi">Acerca de mi</a>
                     <a href="#habilidades">Habilidades</a>
@@ -14,7 +16,7 @@
                     <a href="#contactos">Contactos</a>
                 </ul>
             </nav>
-            <h1>Aldo Rivas</h1>
+            <h1 class="animacion-titulo">Aldo Rivas</h1>
             <h2>Estudiante de Analisis de Sistemas<h2>
         </header>
         <main>
@@ -39,11 +41,11 @@
             <section id="habilidades">
                 <h2>Habilidades</h2>
                 <ul>
-                    <li> HTML</li>
-                    <li> CSS</li>
-                    <li> JavaScript</li>
-                    <li> Git</li>
-                    <li> Metodologias agiles</li>
+                    <li data-porcentaje="100"> HTML</li>
+                    <li data-porcentaje="90"> CSS</li>
+                    <li data-porcentaje="70"> JavaScript</li>
+                    <li data-porcentaje="60"> Git</li>
+                    <li data-porcentaje="50"> Metodologias agiles</li>
                 </ul>
             </section>
             <section id="experiencia">
